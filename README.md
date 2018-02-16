@@ -25,5 +25,5 @@ MAMP
 
 This project uses php and sass to run a login page and allow users in and out. Checking their passwords and locking them out after 3 failed attempts.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
