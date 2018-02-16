@@ -24,6 +24,20 @@
 <title>Welcome to your admin panel login</title>
 </head>
 <body>
+<<<<<<< HEAD
+  <h1 class="hidden">Login Panel</h1>
+  <div class="container">
+    <?php include('../includes/admin-nav.html'); ?>
+    <div class="content">
+      <h2>You have logged in!</h2>
+      <div class="greeting">
+        <?php echo '<h3>'.$greeting.'</h3>'; ?>
+        <?php echo '<h4>Welcome, '.$_SESSION['user_name'].'</h4>'; ?><br>
+        <?php echo '<h4>'.$_SESSION['last_login'].'</h4>'; ?>
+      </div>
+    </div>
+
+=======
   <div class="container">
     <?php include('../includes/admin-nav.html'); ?>
     <h2>You have logged in!</h2>
@@ -32,6 +46,7 @@
     <?php echo $_SESSION['last_login'] ?>
 
     <?php include('../includes/footer.html'); ?>
+>>>>>>> e13e2752231e43089afa24bf2702b1188098018c
   </div>
 </body>
 </html>

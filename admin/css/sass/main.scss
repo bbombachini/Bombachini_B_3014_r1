@@ -34,7 +34,7 @@
   }
   .content{
     width: 60vw;
-    height: 70vh;
+    // height: 70vh;
     margin: 0 auto;
     box-shadow: 0 0 6px 0 rgba(0,0,0,0.4);
     background-color: #fff;
@@ -45,31 +45,58 @@
       font: 1.6vw 'Nanum Gothic', sans-serif;
       line-height: 3em;
     }
-    form {
+    .message {
+      height: 8vw;
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      h3 {
+        text-align: center;
+        color: $salmon;
+        font: 1.7vw 'Nanum Gothic', sans-serif;
+      }
+    }
+    form {
+      // background-color: $salmon;
       width: 20vw;
       margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 0 10vw 0;
       font: 1vw 'Nanum Gothic', sans-serif;
       label {
         color: $darkgrey;
+        font-size: 1.1vw;
+        padding: 5px 0;
       }
       input {
         box-shadow: 0 0 6px 0 rgba(0,0,0,0.4);
         border-radius: 8px;
         height: 2em;
+        font-size: 1vw;
       }
       input#submit{
         margin: 0 auto;
         font-size: 1.4vw;
-        line-height: 2em;
         width: 10vw;
         background-color: $salmon;
         color: #fff;
         cursor: pointer;
       }
     }
-
+    .greeting{
+      padding: 8vw;
+      h3{
+        font: 1.8vw 'Bitter', serif;
+        color: $blue;
+        font-style: italic;
+        padding-bottom: 7vw;
+      }
+      h4{
+        font: 1vw 'Nanum Gothic', sans-serif;
+      }
+    }
   }
 }
 
